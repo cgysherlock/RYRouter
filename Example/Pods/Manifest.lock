@@ -1,0 +1,16 @@
+PODS:
+  - RYRoutor (0.1.0)
+
+DEPENDENCIES:
+  - RYRoutor (from `../`)
+
+EXTERNAL SOURCES:
+  RYRoutor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RYRoutor: cd21f6806cf990ac15ada40b20ff93aba45873fb
+
+PODFILE CHECKSUM: 3009636985928398af60ffb82d123133ded2d88b
+
+COCOAPODS: 1.4.0

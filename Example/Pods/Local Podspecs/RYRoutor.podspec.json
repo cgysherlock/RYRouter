@@ -1,0 +1,22 @@
+{
+  "name": "RYRoutor",
+  "version": "0.1.0",
+  "summary": "A short description of RYRoutor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cgysherlock/RYRoutor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cgysherlock": "guanyi.chen@beibei.com"
+  },
+  "source": {
+    "git": "https://github.com/cgysherlock/RYRoutor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RYRoutor/Classes/**/*"
+}
