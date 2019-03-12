@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RYRoutor_Tests' do
+  pod 'RYRoutor', :path => '../'
+  
+  
+end
