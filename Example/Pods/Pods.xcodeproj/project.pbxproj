@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		040F74BAF08F318AE7DFDACABCDFABB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
-		162FFEF22237B098003D5B32 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162FFEF12237B098003D5B32 /* Media.xcassets */; };
 		165FF8304BC1A721905B29FF94A8C2D0 /* Pods-RYRoutor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D604DB0005A85748E9E6C58487622C /* Pods-RYRoutor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		171286123D5DB83CF4B6500C8A00154C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */; };
 		3A473322FD4736B8280A09E7B8D2A4C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
 		6947ED0F8D6442109DD83561072FA1D3 /* RYRoutor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD4CCC47A41A15E41BB9D60B7DCF60 /* RYRoutor-dummy.m */; };
 		75E817EBBA55D0535630DA1467D548FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
@@ -32,30 +32,30 @@
 /* Begin PBXFileReference section */
 		089E4BAEC646844D068A25B402C80D50 /* Pods-RYRoutor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRoutor_Tests.modulemap"; sourceTree = "<group>"; };
 		09F5597E21275F61A836B21A6C4AB68B /* RYRoutor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYRoutor.xcconfig; sourceTree = "<group>"; };
-		162FFEF12237B098003D5B32 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		171E1497F6B2D27EDFA57487833D2EFB /* Pods-RYRoutor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYRoutor_Tests-dummy.m"; sourceTree = "<group>"; };
 		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYRoutor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		47DD4CCC47A41A15E41BB9D60B7DCF60 /* RYRoutor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYRoutor-dummy.m"; sourceTree = "<group>"; };
-		530DD048BBA386F655500A2ECA6A226A /* RYRoutor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RYRoutor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		530DD048BBA386F655500A2ECA6A226A /* RYRoutor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYRoutor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5753EB4E375CCED4671A6C70A08AD600 /* Pods-RYRoutor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRoutor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5E1C4197FA0273389F547F6E6EC7F4AA /* Pods-RYRoutor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRoutor_Tests-resources.sh"; sourceTree = "<group>"; };
 		781745FFF88DE69C58A5C21240203554 /* Pods-RYRoutor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRoutor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		903B6837B1B92459B3E764C527E391AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D604DB0005A85748E9E6C58487622C /* Pods-RYRoutor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYRoutor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A8109EF75BD7D732D10DF4CC179442BF /* RYRoutor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRoutor-umbrella.h"; sourceTree = "<group>"; };
 		ACC3AE0AC9163D7B7720ECAA3E908A84 /* Pods-RYRoutor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRoutor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B151BABBD974184B94AC9D09373D91F7 /* RYRoutor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRoutor-prefix.pch"; sourceTree = "<group>"; };
-		B56830784AD5505940A20693B69BE7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B56830784AD5505940A20693B69BE7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		CED585B00DF10C88FBFAE7B9C3482040 /* RYRoutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYRoutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED585B00DF10C88FBFAE7B9C3482040 /* RYRoutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYRoutor.framework; path = RYRoutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32313556D074A7F21FC7A3EC795FAD9 /* Pods-RYRoutor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRoutor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E6F64A7033AA57BC16BDD942A7B04999 /* RYRoutor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYRoutor.modulemap; sourceTree = "<group>"; };
 		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E90C831E8E9D099C6F7715859F3B31B0 /* Pods_RYRoutor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRoutor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90C831E8E9D099C6F7715859F3B31B0 /* Pods_RYRoutor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRoutor_Tests.framework; path = "Pods-RYRoutor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD9A7426879FAEF4D33158EC9F45693 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F679902CCD105CAFBB23898B5BF2BB1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F679902CCD105CAFBB23898B5BF2BB1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F804FA4986078E88DF8859BF7254734E /* Pods-RYRoutor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYRoutor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,23 +90,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		162FFEEB2237B055003D5B32 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				162FFEF12237B098003D5B32 /* Media.xcassets */,
-			);
-			name = Assets;
-			path = RYRoutor/Assets;
-			sourceTree = "<group>";
-		};
-		162FFEED2237B056003D5B32 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Classes;
-			path = RYRoutor/Classes;
-			sourceTree = "<group>";
-		};
 		33DC427BE52910316FA496903ABBECBA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +101,7 @@
 		45555780FE9B61BC887A5B5DE1E0C614 /* RYRoutor */ = {
 			isa = PBXGroup;
 			children = (
-				162FFEED2237B056003D5B32 /* Classes */,
-				162FFEEB2237B055003D5B32 /* Assets */,
+				4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */,
 				BE6B5F3A744DAFCD85C73BA1606BB4DC /* Pod */,
 				692FB777AC5EAB3146DA36FAE016D655 /* Support Files */,
 			);
@@ -306,7 +288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162FFEF22237B098003D5B32 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171286123D5DB83CF4B6500C8A00154C /* ReplaceMe.m in Sources */,
 				6947ED0F8D6442109DD83561072FA1D3 /* RYRoutor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
