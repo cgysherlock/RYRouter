@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RYRoutorVersionNumber;
-FOUNDATION_EXPORT const unsigned char RYRoutorVersionString[];
+FOUNDATION_EXPORT double RYRouterVersionNumber;
+FOUNDATION_EXPORT const unsigned char RYRouterVersionString[];
 

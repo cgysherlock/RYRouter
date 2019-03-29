@@ -1,16 +1,16 @@
 PODS:
-  - RYRoutor (0.1.0)
+  - RYRouter (0.1.0)
 
 DEPENDENCIES:
-  - RYRoutor (from `../`)
+  - RYRouter (from `../`)
 
 EXTERNAL SOURCES:
-  RYRoutor:
+  RYRouter:
     :path: ../
 
 SPEC CHECKSUMS:
-  RYRoutor: cd21f6806cf990ac15ada40b20ff93aba45873fb
+  RYRouter: aac39b131f1629392027e83ddd01c8b7b9d09fa7
 
-PODFILE CHECKSUM: 3009636985928398af60ffb82d123133ded2d88b
+PODFILE CHECKSUM: bbe9a2e9c7b37f15da9867d4c2bc9260b291ed24
 
 COCOAPODS: 1.4.0

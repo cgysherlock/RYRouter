@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "RYRoutor_Example.app"
-               BlueprintName = "RYRoutor_Example"
-               ReferencedContainer = "container:RYRoutor.xcodeproj">
+               BuildableName = "RYRouter_Example.app"
+               BlueprintName = "RYRouter_Example"
+               ReferencedContainer = "container:RYRouter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "RYRoutor_Tests.xctest"
-               BlueprintName = "RYRoutor_Tests"
-               ReferencedContainer = "container:RYRoutor.xcodeproj">
+               BuildableName = "RYRouter_Tests.xctest"
+               BlueprintName = "RYRouter_Tests"
+               ReferencedContainer = "container:RYRouter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "RYRoutor_Example.app"
-            BlueprintName = "RYRoutor_Example"
-            ReferencedContainer = "container:RYRoutor.xcodeproj">
+            BuildableName = "RYRouter_Example.app"
+            BlueprintName = "RYRouter_Example"
+            ReferencedContainer = "container:RYRouter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "RYRoutor_Example.app"
-            BlueprintName = "RYRoutor_Example"
-            ReferencedContainer = "container:RYRoutor.xcodeproj">
+            BuildableName = "RYRouter_Example.app"
+            BlueprintName = "RYRouter_Example"
+            ReferencedContainer = "container:RYRouter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "RYRoutor_Example.app"
-            BlueprintName = "RYRoutor_Example"
-            ReferencedContainer = "container:RYRoutor.xcodeproj">
+            BuildableName = "RYRouter_Example.app"
+            BlueprintName = "RYRouter_Example"
+            ReferencedContainer = "container:RYRouter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

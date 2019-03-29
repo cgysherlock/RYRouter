@@ -134,10 +134,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RYRoutor/RYRoutor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RYRouter/RYRouter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/RYRoutor/RYRoutor.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/RYRouter/RYRouter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -7,81 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040F74BAF08F318AE7DFDACABCDFABB6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
-		165FF8304BC1A721905B29FF94A8C2D0 /* Pods-RYRoutor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D604DB0005A85748E9E6C58487622C /* Pods-RYRoutor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		171286123D5DB83CF4B6500C8A00154C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */; };
-		3A473322FD4736B8280A09E7B8D2A4C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
-		6947ED0F8D6442109DD83561072FA1D3 /* RYRoutor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DD4CCC47A41A15E41BB9D60B7DCF60 /* RYRoutor-dummy.m */; };
-		75E817EBBA55D0535630DA1467D548FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
-		7894F82E2C3FE9D8FB56CEF61F8C3A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		A31B839320A10B21F8B1EB5938AAD449 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
-		BC0A1395597C45C6ED04C2CF45AC4F68 /* Pods-RYRoutor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171E1497F6B2D27EDFA57487833D2EFB /* Pods-RYRoutor_Tests-dummy.m */; };
-		E3F3D8185DA723594794F017FE289179 /* RYRoutor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8109EF75BD7D732D10DF4CC179442BF /* RYRoutor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD5009B233AA7C89E892D9CF51317B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		6DD69171C727B7FD50F12EC6C9F62E02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */; };
+		8BB672621ED6F35538CE7B424E791BAF /* RYRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB2894CC0D0AE0A302BEB64389C5444 /* RYRouter-dummy.m */; };
+		A07BEB31C6221384D6A5446CA36CF74D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89163E94743FDDD60913C47150E225B /* UIKit.framework */; };
+		A580EB2627D9E08701781B01F9840D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */; };
+		AB528D0154CFC35DACE41070CA3054BB /* Pods-RYRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EED8CDDDCD2D592226DF167BE4F83784 /* Pods-RYRouter_Tests-dummy.m */; };
+		C8A79E3D1CE0B8D4F96F95EA43FDD9D7 /* Pods-RYRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0BBE94BD00C4E47F13A99D38F1B763 /* Pods-RYRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF1886B2DA5CD114E481B5405FDC359 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ADEED4599C736908B31CD531028589 /* ReplaceMe.m */; };
+		F8AA11473896CD33F26FBC4B22F3AE4A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */; };
+		FF2873A700174A0CAC615AC8EE1309D4 /* RYRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5739A7145479463961DA465FA0D7DA /* RYRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1502BCCF033340EDC8720E9EDDFC792E /* PBXContainerItemProxy */ = {
+		F3343168835AA11AC1AEDBE4C3F987B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B42D13363C181EEF05A940B1356177D4;
-			remoteInfo = RYRoutor;
+			remoteGlobalIDString = 45FE0CB36A586DEBFC66B0377CF08541;
+			remoteInfo = RYRouter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089E4BAEC646844D068A25B402C80D50 /* Pods-RYRoutor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRoutor_Tests.modulemap"; sourceTree = "<group>"; };
-		09F5597E21275F61A836B21A6C4AB68B /* RYRoutor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYRoutor.xcconfig; sourceTree = "<group>"; };
-		171E1497F6B2D27EDFA57487833D2EFB /* Pods-RYRoutor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYRoutor_Tests-dummy.m"; sourceTree = "<group>"; };
+		02969CCE93D12E98E7AB277C3C2A96BD /* Pods-RYRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0D4428987D9D739B6AB502C2B395382E /* RYRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		104BF6ADADB39DC16C1FCEE207EC9049 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C20E6C73BE35B150AE002031B5759C /* RYRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYRouter.xcconfig; sourceTree = "<group>"; };
+		2B5739A7145479463961DA465FA0D7DA /* RYRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRouter-umbrella.h"; sourceTree = "<group>"; };
+		30B3D9EFA249CE4C1038794A1EEC7157 /* Pods-RYRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		328E97313197B0CFC758EFDA7BE56DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		335664E7775AAAADB1DC80E979DBE571 /* RYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYRouter.framework; path = RYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYRoutor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		47DD4CCC47A41A15E41BB9D60B7DCF60 /* RYRoutor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYRoutor-dummy.m"; sourceTree = "<group>"; };
-		530DD048BBA386F655500A2ECA6A226A /* RYRoutor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYRoutor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5753EB4E375CCED4671A6C70A08AD600 /* Pods-RYRoutor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRoutor_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5E1C4197FA0273389F547F6E6EC7F4AA /* Pods-RYRoutor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRoutor_Tests-resources.sh"; sourceTree = "<group>"; };
-		781745FFF88DE69C58A5C21240203554 /* Pods-RYRoutor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRoutor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		903B6837B1B92459B3E764C527E391AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46BD882093248F49EE3E53779A6A2A86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5469F16E6312D41CC1A331254D786CB2 /* Pods-RYRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56D25865888E4802B54D232C4B76B543 /* Pods-RYRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		60DDAF4E2F534462B2E572277EB8B137 /* Pods-RYRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		62225058433DD2294B40C126D4EC390C /* RYRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYRouter.modulemap; sourceTree = "<group>"; };
+		6ED2C6CA7EA3C315DE9AF7273B57F9C1 /* RYRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRouter-prefix.pch"; sourceTree = "<group>"; };
+		7DB2894CC0D0AE0A302BEB64389C5444 /* RYRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYRouter-dummy.m"; sourceTree = "<group>"; };
+		88DEE38A929EEABD07A529747C66803D /* Pods_RYRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRouter_Tests.framework; path = "Pods-RYRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1D604DB0005A85748E9E6C58487622C /* Pods-RYRoutor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYRoutor_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A8109EF75BD7D732D10DF4CC179442BF /* RYRoutor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRoutor-umbrella.h"; sourceTree = "<group>"; };
-		ACC3AE0AC9163D7B7720ECAA3E908A84 /* Pods-RYRoutor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRoutor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B151BABBD974184B94AC9D09373D91F7 /* RYRoutor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRoutor-prefix.pch"; sourceTree = "<group>"; };
-		B56830784AD5505940A20693B69BE7FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9ABA61FC231EA833A6455E7BE163F925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5E7C8354D7F191F7D8AF84FD1876F6 /* Pods-RYRouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRouter_Tests-resources.sh"; sourceTree = "<group>"; };
+		A049734E0FE97DCB80EA3844EAD45F51 /* Pods-RYRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC0BBE94BD00C4E47F13A99D38F1B763 /* Pods-RYRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B65E433A68C225D6FF6B2CE970853F1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		CED585B00DF10C88FBFAE7B9C3482040 /* RYRoutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYRoutor.framework; path = RYRoutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D32313556D074A7F21FC7A3EC795FAD9 /* Pods-RYRoutor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRoutor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D56348597C0DD615177C5C15A774BCF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6F64A7033AA57BC16BDD942A7B04999 /* RYRoutor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYRoutor.modulemap; sourceTree = "<group>"; };
 		E89163E94743FDDD60913C47150E225B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E90C831E8E9D099C6F7715859F3B31B0 /* Pods_RYRoutor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRoutor_Tests.framework; path = "Pods-RYRoutor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD9A7426879FAEF4D33158EC9F45693 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F679902CCD105CAFBB23898B5BF2BB1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F804FA4986078E88DF8859BF7254734E /* Pods-RYRoutor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYRoutor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EED8CDDDCD2D592226DF167BE4F83784 /* Pods-RYRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		F4ADEED4599C736908B31CD531028589 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B27042C7BED8B1D183DAE11FA057B31C /* Frameworks */ = {
+		33A940FC26C0F6F090C9B5B411720048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040F74BAF08F318AE7DFDACABCDFABB6 /* CoreGraphics.framework in Frameworks */,
-				7894F82E2C3FE9D8FB56CEF61F8C3A46 /* Foundation.framework in Frameworks */,
-				3A473322FD4736B8280A09E7B8D2A4C7 /* QuartzCore.framework in Frameworks */,
-				75E817EBBA55D0535630DA1467D548FB /* UIKit.framework in Frameworks */,
+				5AD5009B233AA7C89E892D9CF51317B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE694E4C481DAB304D4A9F8F230C841C /* Frameworks */ = {
+		4CEFFA46555A771D7299D08CC46CBE52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31B839320A10B21F8B1EB5938AAD449 /* Foundation.framework in Frameworks */,
+				6DD69171C727B7FD50F12EC6C9F62E02 /* CoreGraphics.framework in Frameworks */,
+				A580EB2627D9E08701781B01F9840D5E /* Foundation.framework in Frameworks */,
+				F8AA11473896CD33F26FBC4B22F3AE4A /* QuartzCore.framework in Frameworks */,
+				A07BEB31C6221384D6A5446CA36CF74D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029D3DCDCEE796AB4213E6091C3F206E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				328E97313197B0CFC758EFDA7BE56DE8 /* LICENSE */,
+				46BD882093248F49EE3E53779A6A2A86 /* README.md */,
+				0D4428987D9D739B6AB502C2B395382E /* RYRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		11AEC48D5863EEA9DE125F92003AF79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DEE38A929EEABD07A529747C66803D /* Pods_RYRouter_Tests.framework */,
+				335664E7775AAAADB1DC80E979DBE571 /* RYRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,23 +109,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		33DC427BE52910316FA496903ABBECBA /* Development Pods */ = {
+		2D7B123D0D9914A9041C510BC7214DCC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45555780FE9B61BC887A5B5DE1E0C614 /* RYRoutor */,
+				104BF6ADADB39DC16C1FCEE207EC9049 /* Info.plist */,
+				62225058433DD2294B40C126D4EC390C /* RYRouter.modulemap */,
+				10C20E6C73BE35B150AE002031B5759C /* RYRouter.xcconfig */,
+				7DB2894CC0D0AE0A302BEB64389C5444 /* RYRouter-dummy.m */,
+				6ED2C6CA7EA3C315DE9AF7273B57F9C1 /* RYRouter-prefix.pch */,
+				2B5739A7145479463961DA465FA0D7DA /* RYRouter-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RYRouter";
 			sourceTree = "<group>";
 		};
-		45555780FE9B61BC887A5B5DE1E0C614 /* RYRoutor */ = {
+		3AC3D2D3F02444D62CC664E20330C293 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4357537FB511BBFDAA2E8368775D3B40 /* ReplaceMe.m */,
-				BE6B5F3A744DAFCD85C73BA1606BB4DC /* Pod */,
-				692FB777AC5EAB3146DA36FAE016D655 /* Support Files */,
+				7663B1018752AAEAA428F90E491A4F29 /* RYRouter */,
 			);
-			name = RYRoutor;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		53C8B4AB97860F06FE722851EA867B18 /* iOS */ = {
@@ -120,133 +142,111 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		692FB777AC5EAB3146DA36FAE016D655 /* Support Files */ = {
+		7663B1018752AAEAA428F90E491A4F29 /* RYRouter */ = {
 			isa = PBXGroup;
 			children = (
-				ECD9A7426879FAEF4D33158EC9F45693 /* Info.plist */,
-				E6F64A7033AA57BC16BDD942A7B04999 /* RYRoutor.modulemap */,
-				09F5597E21275F61A836B21A6C4AB68B /* RYRoutor.xcconfig */,
-				47DD4CCC47A41A15E41BB9D60B7DCF60 /* RYRoutor-dummy.m */,
-				B151BABBD974184B94AC9D09373D91F7 /* RYRoutor-prefix.pch */,
-				A8109EF75BD7D732D10DF4CC179442BF /* RYRoutor-umbrella.h */,
+				F4ADEED4599C736908B31CD531028589 /* ReplaceMe.m */,
+				029D3DCDCEE796AB4213E6091C3F206E /* Pod */,
+				2D7B123D0D9914A9041C510BC7214DCC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RYRoutor";
-			sourceTree = "<group>";
-		};
-		7762E26F47B8AB81C083DDD61A1F36BC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD36CA1647410AD31883A9192CC5ADC3 /* Pods-RYRoutor_Tests */,
-			);
-			name = "Targets Support Files";
+			name = RYRouter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				33DC427BE52910316FA496903ABBECBA /* Development Pods */,
+				3AC3D2D3F02444D62CC664E20330C293 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				A8AFDC1A731F9991C93D3A3F1B4B307E /* Products */,
-				7762E26F47B8AB81C083DDD61A1F36BC /* Targets Support Files */,
+				11AEC48D5863EEA9DE125F92003AF79F /* Products */,
+				C962F542E4AFBE71C8ECD50A5306C56C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A8AFDC1A731F9991C93D3A3F1B4B307E /* Products */ = {
+		C962F542E4AFBE71C8ECD50A5306C56C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E90C831E8E9D099C6F7715859F3B31B0 /* Pods_RYRoutor_Tests.framework */,
-				CED585B00DF10C88FBFAE7B9C3482040 /* RYRoutor.framework */,
+				F487780427B5A701B6C09B6B0BD44D87 /* Pods-RYRouter_Tests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE6B5F3A744DAFCD85C73BA1606BB4DC /* Pod */ = {
+		F487780427B5A701B6C09B6B0BD44D87 /* Pods-RYRouter_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B56830784AD5505940A20693B69BE7FB /* LICENSE */,
-				F679902CCD105CAFBB23898B5BF2BB1A /* README.md */,
-				530DD048BBA386F655500A2ECA6A226A /* RYRoutor.podspec */,
+				9ABA61FC231EA833A6455E7BE163F925 /* Info.plist */,
+				30B3D9EFA249CE4C1038794A1EEC7157 /* Pods-RYRouter_Tests.modulemap */,
+				5469F16E6312D41CC1A331254D786CB2 /* Pods-RYRouter_Tests-acknowledgements.markdown */,
+				A049734E0FE97DCB80EA3844EAD45F51 /* Pods-RYRouter_Tests-acknowledgements.plist */,
+				EED8CDDDCD2D592226DF167BE4F83784 /* Pods-RYRouter_Tests-dummy.m */,
+				02969CCE93D12E98E7AB277C3C2A96BD /* Pods-RYRouter_Tests-frameworks.sh */,
+				9C5E7C8354D7F191F7D8AF84FD1876F6 /* Pods-RYRouter_Tests-resources.sh */,
+				AC0BBE94BD00C4E47F13A99D38F1B763 /* Pods-RYRouter_Tests-umbrella.h */,
+				56D25865888E4802B54D232C4B76B543 /* Pods-RYRouter_Tests.debug.xcconfig */,
+				60DDAF4E2F534462B2E572277EB8B137 /* Pods-RYRouter_Tests.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CD36CA1647410AD31883A9192CC5ADC3 /* Pods-RYRoutor_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				903B6837B1B92459B3E764C527E391AD /* Info.plist */,
-				089E4BAEC646844D068A25B402C80D50 /* Pods-RYRoutor_Tests.modulemap */,
-				F804FA4986078E88DF8859BF7254734E /* Pods-RYRoutor_Tests-acknowledgements.markdown */,
-				ACC3AE0AC9163D7B7720ECAA3E908A84 /* Pods-RYRoutor_Tests-acknowledgements.plist */,
-				171E1497F6B2D27EDFA57487833D2EFB /* Pods-RYRoutor_Tests-dummy.m */,
-				5753EB4E375CCED4671A6C70A08AD600 /* Pods-RYRoutor_Tests-frameworks.sh */,
-				5E1C4197FA0273389F547F6E6EC7F4AA /* Pods-RYRoutor_Tests-resources.sh */,
-				A1D604DB0005A85748E9E6C58487622C /* Pods-RYRoutor_Tests-umbrella.h */,
-				D32313556D074A7F21FC7A3EC795FAD9 /* Pods-RYRoutor_Tests.debug.xcconfig */,
-				781745FFF88DE69C58A5C21240203554 /* Pods-RYRoutor_Tests.release.xcconfig */,
-			);
-			name = "Pods-RYRoutor_Tests";
-			path = "Target Support Files/Pods-RYRoutor_Tests";
+			name = "Pods-RYRouter_Tests";
+			path = "Target Support Files/Pods-RYRouter_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6100C7FA45E3D0872C61DCC8DC68A402 /* Headers */ = {
+		A4EF18BF2611276661F654D28F4E68CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165FF8304BC1A721905B29FF94A8C2D0 /* Pods-RYRoutor_Tests-umbrella.h in Headers */,
+				C8A79E3D1CE0B8D4F96F95EA43FDD9D7 /* Pods-RYRouter_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B7337F02846C89BA54AA4A0898C0CBF /* Headers */ = {
+		E4CB038F17A78A2629481975F198EB09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F3D8185DA723594794F017FE289179 /* RYRoutor-umbrella.h in Headers */,
+				FF2873A700174A0CAC615AC8EE1309D4 /* RYRouter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B42D13363C181EEF05A940B1356177D4 /* RYRoutor */ = {
+		02893462144B2FE1FF456646B8E45564 /* Pods-RYRouter_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8F3D0860D5325216A82B258E2B1C41 /* Build configuration list for PBXNativeTarget "RYRoutor" */;
+			buildConfigurationList = AC5424D7C51012C5DF793D3F28B2A9D5 /* Build configuration list for PBXNativeTarget "Pods-RYRouter_Tests" */;
 			buildPhases = (
-				6B7337F02846C89BA54AA4A0898C0CBF /* Headers */,
-				E24A4903260226970844D5CF36C1DBD1 /* Sources */,
-				B27042C7BED8B1D183DAE11FA057B31C /* Frameworks */,
-				CBA6A71A0227FF26FAA2DE00E6C8AB93 /* Resources */,
+				A4EF18BF2611276661F654D28F4E68CC /* Headers */,
+				D954C0B09E595611DD2F33EEA4F659E3 /* Sources */,
+				33A940FC26C0F6F090C9B5B411720048 /* Frameworks */,
+				57753C6A294E071270C0E7E66F9846DB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0994D7E049FBA82D39F3DA7FFC4159B6 /* PBXTargetDependency */,
 			);
-			name = RYRoutor;
-			productName = RYRoutor;
-			productReference = CED585B00DF10C88FBFAE7B9C3482040 /* RYRoutor.framework */;
+			name = "Pods-RYRouter_Tests";
+			productName = "Pods-RYRouter_Tests";
+			productReference = 88DEE38A929EEABD07A529747C66803D /* Pods_RYRouter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C91F1A496C402C03FA41128E6A7D8F3D /* Pods-RYRoutor_Tests */ = {
+		45FE0CB36A586DEBFC66B0377CF08541 /* RYRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123E2E9ADC92DB07F372116F131D215F /* Build configuration list for PBXNativeTarget "Pods-RYRoutor_Tests" */;
+			buildConfigurationList = 262AB35E716EBF74E1AC35FB6B7F992B /* Build configuration list for PBXNativeTarget "RYRouter" */;
 			buildPhases = (
-				6100C7FA45E3D0872C61DCC8DC68A402 /* Headers */,
-				2E8FBDE07807A9B33FD36DB3EE0E91DE /* Sources */,
-				DE694E4C481DAB304D4A9F8F230C841C /* Frameworks */,
-				67C3A3E0FE73D1F6A08AFAF43F2F071A /* Resources */,
+				E4CB038F17A78A2629481975F198EB09 /* Headers */,
+				D0D4E257478F7852B232ECE1982DA67C /* Sources */,
+				4CEFFA46555A771D7299D08CC46CBE52 /* Frameworks */,
+				F0CB05A7B5728CFA117E2E2E9B9F1D5D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A70307F3162373BB46E440B2383DB82 /* PBXTargetDependency */,
 			);
-			name = "Pods-RYRoutor_Tests";
-			productName = "Pods-RYRoutor_Tests";
-			productReference = E90C831E8E9D099C6F7715859F3B31B0 /* Pods_RYRoutor_Tests.framework */;
+			name = RYRouter;
+			productName = RYRouter;
+			productReference = 335664E7775AAAADB1DC80E979DBE571 /* RYRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -266,25 +266,25 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A8AFDC1A731F9991C93D3A3F1B4B307E /* Products */;
+			productRefGroup = 11AEC48D5863EEA9DE125F92003AF79F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C91F1A496C402C03FA41128E6A7D8F3D /* Pods-RYRoutor_Tests */,
-				B42D13363C181EEF05A940B1356177D4 /* RYRoutor */,
+				02893462144B2FE1FF456646B8E45564 /* Pods-RYRouter_Tests */,
+				45FE0CB36A586DEBFC66B0377CF08541 /* RYRouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67C3A3E0FE73D1F6A08AFAF43F2F071A /* Resources */ = {
+		57753C6A294E071270C0E7E66F9846DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBA6A71A0227FF26FAA2DE00E6C8AB93 /* Resources */ = {
+		F0CB05A7B5728CFA117E2E2E9B9F1D5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,38 +294,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E8FBDE07807A9B33FD36DB3EE0E91DE /* Sources */ = {
+		D0D4E257478F7852B232ECE1982DA67C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC0A1395597C45C6ED04C2CF45AC4F68 /* Pods-RYRoutor_Tests-dummy.m in Sources */,
+				CDF1886B2DA5CD114E481B5405FDC359 /* ReplaceMe.m in Sources */,
+				8BB672621ED6F35538CE7B424E791BAF /* RYRouter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E24A4903260226970844D5CF36C1DBD1 /* Sources */ = {
+		D954C0B09E595611DD2F33EEA4F659E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171286123D5DB83CF4B6500C8A00154C /* ReplaceMe.m in Sources */,
-				6947ED0F8D6442109DD83561072FA1D3 /* RYRoutor-dummy.m in Sources */,
+				AB528D0154CFC35DACE41070CA3054BB /* Pods-RYRouter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A70307F3162373BB46E440B2383DB82 /* PBXTargetDependency */ = {
+		0994D7E049FBA82D39F3DA7FFC4159B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RYRoutor;
-			target = B42D13363C181EEF05A940B1356177D4 /* RYRoutor */;
-			targetProxy = 1502BCCF033340EDC8720E9EDDFC792E /* PBXContainerItemProxy */;
+			name = RYRouter;
+			target = 45FE0CB36A586DEBFC66B0377CF08541 /* RYRouter */;
+			targetProxy = F3343168835AA11AC1AEDBE4C3F987B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		396B76835DDFB95FDC70ABAA83472DD0 /* Release */ = {
+		7747C4C1E05BC005A033936FCC1DB4D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781745FFF88DE69C58A5C21240203554 /* Pods-RYRoutor_Tests.release.xcconfig */;
+			baseConfigurationReference = 56D25865888E4802B54D232C4B76B543 /* Pods-RYRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -336,29 +336,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RYRoutor_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYRouter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RYRoutor_Tests/Pods-RYRoutor_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RYRouter_Tests/Pods-RYRouter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RYRoutor_Tests;
+				PRODUCT_NAME = Pods_RYRouter_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		50F9D144F1A9AD40C8582D5ABCE8B3D5 /* Release */ = {
+		99BA45B2E5EF446ACE059EB4D15125C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09F5597E21275F61A836B21A6C4AB68B /* RYRoutor.xcconfig */;
+			baseConfigurationReference = 10C20E6C73BE35B150AE002031B5759C /* RYRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -369,13 +368,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RYRoutor/RYRoutor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RYRoutor/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RYRouter/RYRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RYRoutor/RYRoutor.modulemap";
-				PRODUCT_NAME = RYRoutor;
+				MODULEMAP_FILE = "Target Support Files/RYRouter/RYRouter.modulemap";
+				PRODUCT_NAME = RYRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -386,9 +385,9 @@
 			};
 			name = Release;
 		};
-		A89177B530B86284A4E8A3A0ABD99CDE /* Debug */ = {
+		AEDFAB2BAB59A030086EFEFE587DEDE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09F5597E21275F61A836B21A6C4AB68B /* RYRoutor.xcconfig */;
+			baseConfigurationReference = 10C20E6C73BE35B150AE002031B5759C /* RYRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -399,13 +398,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RYRoutor/RYRoutor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RYRoutor/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RYRouter/RYRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYRouter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RYRoutor/RYRoutor.modulemap";
-				PRODUCT_NAME = RYRoutor;
+				MODULEMAP_FILE = "Target Support Files/RYRouter/RYRouter.modulemap";
+				PRODUCT_NAME = RYRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -538,9 +537,9 @@
 			};
 			name = Release;
 		};
-		D33CEE4AB6A9F5CEC89E147DB362F3D7 /* Debug */ = {
+		F396A683D035B5548BD0713C4F1EBCFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D32313556D074A7F21FC7A3EC795FAD9 /* Pods-RYRoutor_Tests.debug.xcconfig */;
+			baseConfigurationReference = 60DDAF4E2F534462B2E572277EB8B137 /* Pods-RYRouter_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -551,33 +550,34 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RYRoutor_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYRouter_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RYRoutor_Tests/Pods-RYRoutor_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RYRouter_Tests/Pods-RYRouter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RYRoutor_Tests;
+				PRODUCT_NAME = Pods_RYRouter_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		123E2E9ADC92DB07F372116F131D215F /* Build configuration list for PBXNativeTarget "Pods-RYRoutor_Tests" */ = {
+		262AB35E716EBF74E1AC35FB6B7F992B /* Build configuration list for PBXNativeTarget "RYRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33CEE4AB6A9F5CEC89E147DB362F3D7 /* Debug */,
-				396B76835DDFB95FDC70ABAA83472DD0 /* Release */,
+				AEDFAB2BAB59A030086EFEFE587DEDE3 /* Debug */,
+				99BA45B2E5EF446ACE059EB4D15125C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -591,11 +591,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8F3D0860D5325216A82B258E2B1C41 /* Build configuration list for PBXNativeTarget "RYRoutor" */ = {
+		AC5424D7C51012C5DF793D3F28B2A9D5 /* Build configuration list for PBXNativeTarget "Pods-RYRouter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A89177B530B86284A4E8A3A0ABD99CDE /* Debug */,
-				50F9D144F1A9AD40C8582D5ABCE8B3D5 /* Release */,
+				7747C4C1E05BC005A033936FCC1DB4D2 /* Debug */,
+				F396A683D035B5548BD0713C4F1EBCFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

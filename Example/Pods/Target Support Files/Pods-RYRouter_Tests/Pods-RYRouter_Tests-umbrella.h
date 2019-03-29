@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RYRoutor_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RYRoutor_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_RYRouter_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RYRouter_TestsVersionString[];
 

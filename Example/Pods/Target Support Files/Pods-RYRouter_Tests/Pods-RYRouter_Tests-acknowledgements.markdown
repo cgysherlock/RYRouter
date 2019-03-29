@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## RYRoutor
+## RYRouter
 
 Copyright (c) 2019 cgysherlock <guanyi.chen@beibei.com>
 
