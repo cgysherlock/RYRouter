@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RYRouter'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A description of RYRouter.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'RYRouter' => ['RYRouter/Assets/*.png']
   # }
 
-   s.public_header_files = 'RYRouter/Classes/Public/*.h'
+#   s.public_header_files = 'RYRouter/Classes/Public/*'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
