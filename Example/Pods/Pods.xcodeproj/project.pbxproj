@@ -31,23 +31,23 @@
 
 /* Begin PBXFileReference section */
 		02969CCE93D12E98E7AB277C3C2A96BD /* Pods-RYRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0D4428987D9D739B6AB502C2B395382E /* RYRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D4428987D9D739B6AB502C2B395382E /* RYRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RYRouter.podspec; sourceTree = "<group>"; };
 		104BF6ADADB39DC16C1FCEE207EC9049 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C20E6C73BE35B150AE002031B5759C /* RYRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYRouter.xcconfig; sourceTree = "<group>"; };
 		2B5739A7145479463961DA465FA0D7DA /* RYRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRouter-umbrella.h"; sourceTree = "<group>"; };
 		30B3D9EFA249CE4C1038794A1EEC7157 /* Pods-RYRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		328E97313197B0CFC758EFDA7BE56DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		335664E7775AAAADB1DC80E979DBE571 /* RYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYRouter.framework; path = RYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328E97313197B0CFC758EFDA7BE56DE8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		335664E7775AAAADB1DC80E979DBE571 /* RYRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C473026796F8AFAA2ECD5A761494CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		46BD882093248F49EE3E53779A6A2A86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46BD882093248F49EE3E53779A6A2A86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5469F16E6312D41CC1A331254D786CB2 /* Pods-RYRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		56D25865888E4802B54D232C4B76B543 /* Pods-RYRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		60DDAF4E2F534462B2E572277EB8B137 /* Pods-RYRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		62225058433DD2294B40C126D4EC390C /* RYRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYRouter.modulemap; sourceTree = "<group>"; };
 		6ED2C6CA7EA3C315DE9AF7273B57F9C1 /* RYRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYRouter-prefix.pch"; sourceTree = "<group>"; };
 		7DB2894CC0D0AE0A302BEB64389C5444 /* RYRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYRouter-dummy.m"; sourceTree = "<group>"; };
-		88DEE38A929EEABD07A529747C66803D /* Pods_RYRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYRouter_Tests.framework; path = "Pods-RYRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88DEE38A929EEABD07A529747C66803D /* Pods_RYRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ABA61FC231EA833A6455E7BE163F925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C5E7C8354D7F191F7D8AF84FD1876F6 /* Pods-RYRouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYRouter_Tests-resources.sh"; sourceTree = "<group>"; };
 		A049734E0FE97DCB80EA3844EAD45F51 /* Pods-RYRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -263,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;

@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   #   'RYRouter' => ['RYRouter/Assets/*.png']
   # }
 
-   s.public_header_files = 'RYRouter/Classes/Public/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'RYRouter/Classes/Public/*.h'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
